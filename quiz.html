@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ms">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kuiz | Dragon Training Academy</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="theme-anime">
+    <header class="site-header">
+      <nav class="nav container">
+        <div class="brand">
+          <div class="brand-mark">D</div>
+          <div>
+            <strong>DRAGON</strong>
+            <span>TRAINING ACADEMY</span>
+          </div>
+        </div>
+        <div class="nav-links">
+          <a href="index.html">Utama</a>
+          <a href="concept.html">Konsep</a>
+          <a href="video.html">Video</a>
+          <a href="activity.html">Aktiviti</a>
+          <a href="quiz.html" class="active">Kuiz</a>
+          <a href="reflection.html">AI & Refleksi</a>
+          <a href="report.html">Laporan</a>
+        </div>
+      </nav>
+    </header>
+
+    <main class="page-shell container">
+      <section class="page-header">
+        <p class="eyebrow">Misi 4</p>
+        <h1>Ultimate Jumping Challenge</h1>
+      </section>
+
+      <section class="panel quiz-panel">
+        <div class="quiz-header">
+          <div>
+            <p class="eyebrow">E-Pentaksiran Gamifikasi</p>
+            <h2>Kuiz Digital</h2>
+          </div>
+          <div class="energy-meter">
+            <span>Power Level</span>
+            <div class="meter"><span id="power-fill"></span></div>
+          </div>
+        </div>
+
+        <form id="quiz-form">
+          <div class="question-item">
+            <p>1. Apakah maksud melompat melepasi halangan?</p>
+            <label><input type="radio" name="q1" value="A" /> Menjalankan larian cepat</label>
+            <label><input type="radio" name="q1" value="B" /> Melompat untuk melepasi sesuatu halangan</label>
+            <label><input type="radio" name="q1" value="C" /> Menangkap bola</label>
+          </div>
+
+          <div class="question-item">
+            <p>2. Kaki yang sesuai digunakan untuk melonjak penting kerana:</p>
+            <label><input type="radio" name="q2" value="A" /> Membantu menghasilkan lonjakan yang sesuai</label>
+            <label><input type="radio" name="q2" value="B" /> Untuk menambah berat badan</label>
+            <label><input type="radio" name="q2" value="C" /> Supaya badan duduk</label>
+          </div>
+
+          <div class="question-item">
+            <p>3. Apakah yang perlu dilakukan sebelum melompat?</p>
+            <label><input type="radio" name="q3" value="A" /> Bersedia dengan posisi badan yang stabil</label>
+            <label><input type="radio" name="q3" value="B" /> Berlari tanpa berhenti</label>
+            <label><input type="radio" name="q3" value="C" /> Menurunkan tangan</label>
+          </div>
+
+          <div class="question-item">
+            <p>4. Mengapakah pendaratan perlu dilakukan dengan selamat?</p>
+            <label><input type="radio" name="q4" value="A" /> Untuk mengelakkan kecederaan</label>
+            <label><input type="radio" name="q4" value="B" /> Agar lebih lambat</label>
+            <label><input type="radio" name="q4" value="C" /> Agar tidak semangat</label>
+          </div>
+
+          <div class="question-item">
+            <p>5. Halangan rendah biasanya sesuai untuk:</p>
+            <label><input type="radio" name="q5" value="A" /> Murid baru mempelajari asas lompatan</label>
+            <label><input type="radio" name="q5" value="B" /> Murid tidak perlu bersenam</label>
+            <label><input type="radio" name="q5" value="C" /> Hanya untuk guru</label>
+          </div>
+
+          <div class="question-item">
+            <p>6. Apakah tindakan yang betul selepas melepasi halangan?</p>
+            <label><input type="radio" name="q6" value="A" /> Mendarat dengan selamat</label>
+            <label><input type="radio" name="q6" value="B" /> Terus duduk</label>
+            <label><input type="radio" name="q6" value="C" /> Menjerit kuat</label>
+          </div>
+
+          <div class="question-item">
+            <p>7. Adakah kita perlu menerima cabaran semasa aktiviti fizikal?</p>
+            <label><input type="radio" name="q7" value="A" /> Ya, dengan cara yang selamat</label>
+            <label><input type="radio" name="q7" value="B" /> Tidak, kerana takut</label>
+            <label><input type="radio" name="q7" value="C" /> Hanya semasa rehat</label>
+          </div>
+
+          <div class="question-item">
+            <p>8. Apakah tujuan memilih kaki yang sesuai semasa melonjak?</p>
+            <label><input type="radio" name="q8" value="A" /> Menstabilkan lompatan</label>
+            <label><input type="radio" name="q8" value="B" /> Menjadikan badan lebih berat</label>
+            <label><input type="radio" name="q8" value="C" /> Mengurangkan pergerakan</label>
+          </div>
+
+          <div class="question-item">
+            <p>9. Mengapakah murid perlu berlatih mengikut kemampuan sendiri?</p>
+            <label><input type="radio" name="q9" value="A" /> Supaya selamat dan bermotivasi</label>
+            <label><input type="radio" name="q9" value="B" /> Supaya tidak perlu bergerak</label>
+            <label><input type="radio" name="q9" value="C" /> Untuk mengelakkan guru</label>
+          </div>
+
+          <div class="question-item">
+            <p>10. Mengapakah murid perlu seronok semasa aktiviti?</p>
+            <label><input type="radio" name="q10" value="A" /> Untuk mengekalkan semangat dan keyakinan</label>
+            <label><input type="radio" name="q10" value="B" /> Agar tidak perlu belajar</label>
+            <label><input type="radio" name="q10" value="C" /> Agar cepat habis aktiviti</label>
+          </div>
+
+          <button type="submit" class="btn btn-primary">Hantar Kuiz</button>
+        </form>
+
+        <div id="quiz-result" class="quiz-result hidden" aria-live="polite"></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-row">
+        <p>© 2026 Dragon Training Academy</p>
+        <div class="footer-links">
+          <a href="reflection.html">Refleksi</a>
+          <a href="report.html">Laporan</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
